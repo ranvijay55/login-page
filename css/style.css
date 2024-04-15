@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.outer-box {
+  background: linear-gradient(to top left, rgb(15, 15, 88), rgb(137, 141, 143));
+  width: 100vw;
+  height: 100vh;
+}
+.iner-box {
+  width: 400px;
+  margin: 0 auto;
+  position: relative;
+  top: 40%;
+  transform: translateY(-50%);
+  padding: 20px 40px;
+  border-radius: 8px;
+  background: linear-gradient(
+    to top left,
+    rgb(121, 155, 167),
+    rgb(38, 154, 167)
+  );
+
+  box-shadow: 2px, 2px, 5px, rgb(137, 141, 143);
+}
+
+.main p label {
+  display: block;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding: 3px;
+}
+.main p {
+  margin: 20px 0px;
+}
+.header {
+  margin-bottom: 25px;
+}
+.header h1 {
+  font-size: 2.5rem;
+}
+
+.main p input {
+  width: 100%;
+  padding: 9px;
+}
+section input {
+  display: block;
+  width: 100%;
+  padding: 9px;
+  color: aliceblue;
+  background-color: rgb(59, 59, 223);
+  font-size: medium;
+}
+.footer p {
+  position: relative;
+  margin: 10px;
+  margin-left: 40px;
+  cursor: cell;
+}
